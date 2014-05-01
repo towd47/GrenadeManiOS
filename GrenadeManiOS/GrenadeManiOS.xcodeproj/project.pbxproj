@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE31FFC41912A07400881D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC31912A07400881D37 /* Foundation.framework */; };
+		EE31FFC61912A07400881D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC51912A07400881D37 /* CoreGraphics.framework */; };
+		EE31FFC81912A07400881D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC71912A07400881D37 /* UIKit.framework */; };
+		EE31FFCA1912A07400881D37 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC91912A07400881D37 /* SpriteKit.framework */; };
+		EE31FFD01912A07400881D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFCE1912A07400881D37 /* InfoPlist.strings */; };
+		EE31FFD21912A07400881D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFD11912A07400881D37 /* main.m */; };
+		EE31FFD61912A07400881D37 /* TAJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFD51912A07400881D37 /* TAJAppDelegate.m */; };
+		EE31FFD91912A07400881D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFD71912A07400881D37 /* Main.storyboard */; };
+		EE31FFDC1912A07400881D37 /* TAJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDB1912A07400881D37 /* TAJViewController.m */; };
+		EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDE1912A07400881D37 /* TAJMyScene.m */; };
+		EE31FFE11912A07400881D37 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFE01912A07400881D37 /* Spaceship.png */; };
+		EE31FFE31912A07400881D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFE21912A07400881D37 /* Images.xcassets */; };
+		EE31FFEA1912A07500881D37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFE91912A07500881D37 /* XCTest.framework */; };
+		EE31FFEB1912A07500881D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC31912A07400881D37 /* Foundation.framework */; };
+		EE31FFEC1912A07500881D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC71912A07400881D37 /* UIKit.framework */; };
+		EE31FFF41912A07500881D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFF21912A07500881D37 /* InfoPlist.strings */; };
+		EE31FFF61912A07500881D37 /* GrenadeManiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFF51912A07500881D37 /* GrenadeManiOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE31FFED1912A07500881D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE31FFB81912A07300881D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE31FFBF1912A07300881D37;
+			remoteInfo = GrenadeManiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE31FFC01912A07300881D37 /* GrenadeManiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrenadeManiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31FFC31912A07400881D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE31FFC51912A07400881D37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE31FFC71912A07400881D37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE31FFC91912A07400881D37 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		EE31FFCD1912A07400881D37 /* GrenadeManiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrenadeManiOS-Info.plist"; sourceTree = "<group>"; };
+		EE31FFCF1912A07400881D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE31FFD11912A07400881D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE31FFD31912A07400881D37 /* GrenadeManiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrenadeManiOS-Prefix.pch"; sourceTree = "<group>"; };
+		EE31FFD41912A07400881D37 /* TAJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAJAppDelegate.h; sourceTree = "<group>"; };
+		EE31FFD51912A07400881D37 /* TAJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAJAppDelegate.m; sourceTree = "<group>"; };
+		EE31FFD81912A07400881D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE31FFDA1912A07400881D37 /* TAJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAJViewController.h; sourceTree = "<group>"; };
+		EE31FFDB1912A07400881D37 /* TAJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAJViewController.m; sourceTree = "<group>"; };
+		EE31FFDD1912A07400881D37 /* TAJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAJMyScene.h; sourceTree = "<group>"; };
+		EE31FFDE1912A07400881D37 /* TAJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAJMyScene.m; sourceTree = "<group>"; };
+		EE31FFE01912A07400881D37 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		EE31FFE21912A07400881D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE31FFE81912A07500881D37 /* GrenadeManiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrenadeManiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31FFE91912A07500881D37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE31FFF11912A07500881D37 /* GrenadeManiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrenadeManiOSTests-Info.plist"; sourceTree = "<group>"; };
+		EE31FFF31912A07500881D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE31FFF51912A07500881D37 /* GrenadeManiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrenadeManiOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE31FFBD1912A07300881D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31FFC61912A07400881D37 /* CoreGraphics.framework in Frameworks */,
+				EE31FFC81912A07400881D37 /* UIKit.framework in Frameworks */,
+				EE31FFCA1912A07400881D37 /* SpriteKit.framework in Frameworks */,
+				EE31FFC41912A07400881D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31FFE51912A07500881D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31FFEA1912A07500881D37 /* XCTest.framework in Frameworks */,
+				EE31FFEC1912A07500881D37 /* UIKit.framework in Frameworks */,
+				EE31FFEB1912A07500881D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE31FFB71912A07300881D37 = {
+			isa = PBXGroup;
+			children = (
+				EE31FFCB1912A07400881D37 /* GrenadeManiOS */,
+				EE31FFEF1912A07500881D37 /* GrenadeManiOSTests */,
+				EE31FFC21912A07300881D37 /* Frameworks */,
+				EE31FFC11912A07300881D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE31FFC11912A07300881D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE31FFC01912A07300881D37 /* GrenadeManiOS.app */,
+				EE31FFE81912A07500881D37 /* GrenadeManiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE31FFC21912A07300881D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE31FFC31912A07400881D37 /* Foundation.framework */,
+				EE31FFC51912A07400881D37 /* CoreGraphics.framework */,
+				EE31FFC71912A07400881D37 /* UIKit.framework */,
+				EE31FFC91912A07400881D37 /* SpriteKit.framework */,
+				EE31FFE91912A07500881D37 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE31FFCB1912A07400881D37 /* GrenadeManiOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE31FFD41912A07400881D37 /* TAJAppDelegate.h */,
+				EE31FFD51912A07400881D37 /* TAJAppDelegate.m */,
+				EE31FFD71912A07400881D37 /* Main.storyboard */,
+				EE31FFDA1912A07400881D37 /* TAJViewController.h */,
+				EE31FFDB1912A07400881D37 /* TAJViewController.m */,
+				EE31FFDD1912A07400881D37 /* TAJMyScene.h */,
+				EE31FFDE1912A07400881D37 /* TAJMyScene.m */,
+				EE31FFE01912A07400881D37 /* Spaceship.png */,
+				EE31FFE21912A07400881D37 /* Images.xcassets */,
+				EE31FFCC1912A07400881D37 /* Supporting Files */,
+			);
+			path = GrenadeManiOS;
+			sourceTree = "<group>";
+		};
+		EE31FFCC1912A07400881D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE31FFCD1912A07400881D37 /* GrenadeManiOS-Info.plist */,
+				EE31FFCE1912A07400881D37 /* InfoPlist.strings */,
+				EE31FFD11912A07400881D37 /* main.m */,
+				EE31FFD31912A07400881D37 /* GrenadeManiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE31FFEF1912A07500881D37 /* GrenadeManiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE31FFF51912A07500881D37 /* GrenadeManiOSTests.m */,
+				EE31FFF01912A07500881D37 /* Supporting Files */,
+			);
+			path = GrenadeManiOSTests;
+			sourceTree = "<group>";
+		};
+		EE31FFF01912A07500881D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE31FFF11912A07500881D37 /* GrenadeManiOSTests-Info.plist */,
+				EE31FFF21912A07500881D37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE31FFBF1912A07300881D37 /* GrenadeManiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31FFF91912A07500881D37 /* Build configuration list for PBXNativeTarget "GrenadeManiOS" */;
+			buildPhases = (
+				EE31FFBC1912A07300881D37 /* Sources */,
+				EE31FFBD1912A07300881D37 /* Frameworks */,
+				EE31FFBE1912A07300881D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrenadeManiOS;
+			productName = GrenadeManiOS;
+			productReference = EE31FFC01912A07300881D37 /* GrenadeManiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE31FFE71912A07500881D37 /* GrenadeManiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31FFFC1912A07500881D37 /* Build configuration list for PBXNativeTarget "GrenadeManiOSTests" */;
+			buildPhases = (
+				EE31FFE41912A07500881D37 /* Sources */,
+				EE31FFE51912A07500881D37 /* Frameworks */,
+				EE31FFE61912A07500881D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE31FFEE1912A07500881D37 /* PBXTargetDependency */,
+			);
+			name = GrenadeManiOSTests;
+			productName = GrenadeManiOSTests;
+			productReference = EE31FFE81912A07500881D37 /* GrenadeManiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE31FFB81912A07300881D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TAJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TomAndrewJeff;
+				TargetAttributes = {
+					EE31FFE71912A07500881D37 = {
+						TestTargetID = EE31FFBF1912A07300881D37;
+					};
+				};
+			};
+			buildConfigurationList = EE31FFBB1912A07300881D37 /* Build configuration list for PBXProject "GrenadeManiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE31FFB71912A07300881D37;
+			productRefGroup = EE31FFC11912A07300881D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE31FFBF1912A07300881D37 /* GrenadeManiOS */,
+				EE31FFE71912A07500881D37 /* GrenadeManiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE31FFBE1912A07300881D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31FFD01912A07400881D37 /* InfoPlist.strings in Resources */,
+				EE31FFE31912A07400881D37 /* Images.xcassets in Resources */,
+				EE31FFE11912A07400881D37 /* Spaceship.png in Resources */,
+				EE31FFD91912A07400881D37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31FFE61912A07500881D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31FFF41912A07500881D37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE31FFBC1912A07300881D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31FFDC1912A07400881D37 /* TAJViewController.m in Sources */,
+				EE31FFD61912A07400881D37 /* TAJAppDelegate.m in Sources */,
+				EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */,
+				EE31FFD21912A07400881D37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31FFE41912A07500881D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31FFF61912A07500881D37 /* GrenadeManiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE31FFEE1912A07500881D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE31FFBF1912A07300881D37 /* GrenadeManiOS */;
+			targetProxy = EE31FFED1912A07500881D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE31FFCE1912A07400881D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31FFCF1912A07400881D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE31FFD71912A07400881D37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31FFD81912A07400881D37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE31FFF21912A07500881D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE31FFF31912A07500881D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE31FFF71912A07500881D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE31FFF81912A07500881D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE31FFFA1912A07500881D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrenadeManiOS/GrenadeManiOS-Prefix.pch";
+				INFOPLIST_FILE = "GrenadeManiOS/GrenadeManiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE31FFFB1912A07500881D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrenadeManiOS/GrenadeManiOS-Prefix.pch";
+				INFOPLIST_FILE = "GrenadeManiOS/GrenadeManiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE31FFFD1912A07500881D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GrenadeManiOS.app/GrenadeManiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrenadeManiOS/GrenadeManiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GrenadeManiOSTests/GrenadeManiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE31FFFE1912A07500881D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GrenadeManiOS.app/GrenadeManiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrenadeManiOS/GrenadeManiOS-Prefix.pch";
+				INFOPLIST_FILE = "GrenadeManiOSTests/GrenadeManiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE31FFBB1912A07300881D37 /* Build configuration list for PBXProject "GrenadeManiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31FFF71912A07500881D37 /* Debug */,
+				EE31FFF81912A07500881D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE31FFF91912A07500881D37 /* Build configuration list for PBXNativeTarget "GrenadeManiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31FFFA1912A07500881D37 /* Debug */,
+				EE31FFFB1912A07500881D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE31FFFC1912A07500881D37 /* Build configuration list for PBXNativeTarget "GrenadeManiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31FFFD1912A07500881D37 /* Debug */,
+				EE31FFFE1912A07500881D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE31FFB81912A07300881D37 /* Project object */;
+}
