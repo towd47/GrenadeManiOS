@@ -35,11 +35,11 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
+    //if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+    //    return UIInterfaceOrientationMaskAllButUpsideDown;
+    //} else {
+        return UIInterfaceOrientationMaskLandscape;
+    //}
 }
 
 - (void)didReceiveMemoryWarning
