@@ -6,26 +6,30 @@
 //  Copyright (c) 2014 TomAndrewJeff. All rights reserved.
 //
 
-#import "TAJViewController.h"
-#import "TAJMyScene.h"
+#import "ViewController.h"
+#import "GameScene.h"
+@interface ViewController ()
+@end
 
-@implementation TAJViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-
-    // Configure the view.
-    SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
     
-    // Create and configure the scene.
-    SKScene * scene = [TAJMyScene sceneWithSize:skView.bounds.size];
+    
+    [super viewDidLoad];
+    SKView *spriteView = (SKView *) self.view;
+    spriteView.showsDrawCount = YES;
+    spriteView.showsNodeCount = YES;
+    spriteView.showsFPS = YES;
+
+    SKScene * scene = [GameScene sceneWithSize:spriteView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
-    // Present the scene.
-    [skView presentScene:scene];
+    [spriteView presentScene:scene];
+
+    
+    
 }
 
 - (BOOL)shouldAutorotate

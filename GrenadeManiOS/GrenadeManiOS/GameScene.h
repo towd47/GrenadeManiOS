@@ -1,14 +1,13 @@
 //
-//  TAJViewController.h
+//  GameScene.h
 //  GrenadeManiOS
 //
-
+//  Created by Mokacola on 5/15/14.
 //  Copyright (c) 2014 TomAndrewJeff. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
 
-@interface TAJViewController : UIViewController
+@interface GameScene : SKScene
 
 @end
