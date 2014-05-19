@@ -8,57 +8,52 @@
 
 #import "GameScene.h"
 
+
 @implementation GameScene
-
-
--(id)initWithSize:(CGSize)size {
-    if (self = [super initWithSize:size]) {
+Enemy *enemy;
+-(id)initWithSize:(CGSize)size
+{
+    if (self = [super initWithSize:size])
+    {
         
-        SKTexture *backgroundTexture = [SKTexture textureWithImageNamed:@"bg.png"];
-        SKSpriteNode *background = [SKSpriteNode spriteNodeWithTexture:backgroundTexture size:self.view.frame.size];
-        background.position = (CGPoint) {0,0};
-        [self addChild:background]; 
+        SKSpriteNode *background = [SKSpriteNode spriteNodeWithImageNamed:@"bg.png"];
+        background.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+        background.xScale = 0.25;
+        background.yScale = 0.25;
         
-        /*SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
+        castle = [[Castle alloc] init];
+        //[castle setTexture: SPRITES_TEX_CASTLE];
         
-        sprite.position = CGPointMake(CGRectGetMidX(self.frame),
-                                      CGRectGetMidY(self.frame));
+        enemy = [[Enemy alloc] init];
+        //[enemy setTexture:SPRITES_TEX_ENEMY_STICKFIGURE1];
         
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
+        [enemy runAction:walkAndMoveLeft];
         
-        [sprite runAction:[SKAction repeatActionForever:action]];
+        //[self addChild:background];
         
-        [self addChild:sprite];*/
-        
-    
-
-        
-        
+        [self addChild:castle];
+         NSLog(@"Finished");
+        [self addChild:enemy]; 
     }
     return self;
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    /* Called when a touch begins */
-    
-    for (UITouch *touch in touches) {
-        CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
-    }
-
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+ 
 }
 
--(void)update:(CFTimeInterval)currentTime {
-    /* Called before each frame is rendered */
+-(void)update:(CFTimeInterval)currentTime
+{
+    
+}
+
+-(void)enemyCastleHit
+{
+    if(enemy.position.x == castle.position.x + castle.size.width)
+    {
+        [enemy removeFromParent];
+    }
 }
 
 @end

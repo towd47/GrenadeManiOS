@@ -8,10 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0E44E6A119258BE400F1596E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44E6A019258BE400F1596E /* GameScene.m */; };
+		0E820FB619278B8300711904 /* HighScore.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FB419278B8300711904 /* HighScore.txt */; };
+		0E820FFF19278B9400711904 /* backgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD719278B9400711904 /* backgroundMusic.wav */; };
+		0E82100019278B9400711904 /* damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD819278B9400711904 /* damage.wav */; };
+		0E82100119278B9400711904 /* deathMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD919278B9400711904 /* deathMusic.wav */; };
+		0E82100219278B9400711904 /* doublekill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDA19278B9400711904 /* doublekill.wav */; };
+		0E82100319278B9400711904 /* holyShit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDB19278B9400711904 /* holyShit.wav */; };
+		0E82100419278B9400711904 /* megaKill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDC19278B9400711904 /* megaKill.wav */; };
+		0E82100519278B9400711904 /* speedUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDD19278B9400711904 /* speedUp.wav */; };
+		0E82100619278B9400711904 /* tripleKill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDE19278B9400711904 /* tripleKill.wav */; };
+		0E82100719278B9400711904 /* ultraKill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDF19278B9400711904 /* ultraKill.wav */; };
+		0E82100F1929756D00711904 /* Sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 0E82100E1929756D00711904 /* Sprites.atlasc */; };
+		0E821014192A1C3500711904 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821013192A1C3500711904 /* Sprite.m */; };
+		0E821017192A204D00711904 /* Castle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821016192A204D00711904 /* Castle.m */; };
+		0E82101A192A242E00711904 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821019192A242E00711904 /* Enemy.m */; };
 		0E896B471923A4CE000D2710 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E896B461923A4CE000D2710 /* bg.png */; };
-		0EC76FC719250C7600C38223 /* loadTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC76FC619250C7600C38223 /* loadTitle.png */; };
-		0EC76FC919250C7E00C38223 /* castle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC76FC819250C7E00C38223 /* castle.png */; };
-		0EC76FCC19250E6B00C38223 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC76FCB19250E6B00C38223 /* Sprite.m */; };
 		0EC76FD21925132500C38223 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC76FD11925132500C38223 /* IntroViewController.m */; };
 		EE31FFC41912A07400881D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC31912A07400881D37 /* Foundation.framework */; };
 		EE31FFC61912A07400881D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC51912A07400881D37 /* CoreGraphics.framework */; };
@@ -23,7 +34,6 @@
 		EE31FFD91912A07400881D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFD71912A07400881D37 /* Main.storyboard */; };
 		EE31FFDC1912A07400881D37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDB1912A07400881D37 /* ViewController.m */; };
 		EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDE1912A07400881D37 /* TAJMyScene.m */; };
-		EE31FFE11912A07400881D37 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFE01912A07400881D37 /* Spaceship.png */; };
 		EE31FFE31912A07400881D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFE21912A07400881D37 /* Images.xcassets */; };
 		EE31FFEA1912A07500881D37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFE91912A07500881D37 /* XCTest.framework */; };
 		EE31FFEB1912A07500881D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC31912A07400881D37 /* Foundation.framework */; };
@@ -45,11 +55,25 @@
 /* Begin PBXFileReference section */
 		0E44E69F19258BE400F1596E /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		0E44E6A019258BE400F1596E /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		0E820FB419278B8300711904 /* HighScore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HighScore.txt; path = ../../../GrenadeMan2/resources/HighScore.txt; sourceTree = "<group>"; };
+		0E820FD719278B9400711904 /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backgroundMusic.wav; path = ../../../GrenadeMan2/resources/backgroundMusic.wav; sourceTree = "<group>"; };
+		0E820FD819278B9400711904 /* damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = damage.wav; path = ../../../GrenadeMan2/resources/damage.wav; sourceTree = "<group>"; };
+		0E820FD919278B9400711904 /* deathMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = deathMusic.wav; path = ../../../GrenadeMan2/resources/deathMusic.wav; sourceTree = "<group>"; };
+		0E820FDA19278B9400711904 /* doublekill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = doublekill.wav; path = ../../../GrenadeMan2/resources/doublekill.wav; sourceTree = "<group>"; };
+		0E820FDB19278B9400711904 /* holyShit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = holyShit.wav; path = ../../../GrenadeMan2/resources/holyShit.wav; sourceTree = "<group>"; };
+		0E820FDC19278B9400711904 /* megaKill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = megaKill.wav; path = ../../../GrenadeMan2/resources/megaKill.wav; sourceTree = "<group>"; };
+		0E820FDD19278B9400711904 /* speedUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = speedUp.wav; path = ../../../GrenadeMan2/resources/speedUp.wav; sourceTree = "<group>"; };
+		0E820FDE19278B9400711904 /* tripleKill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tripleKill.wav; path = ../../../GrenadeMan2/resources/tripleKill.wav; sourceTree = "<group>"; };
+		0E820FDF19278B9400711904 /* ultraKill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ultraKill.wav; path = ../../../GrenadeMan2/resources/ultraKill.wav; sourceTree = "<group>"; };
+		0E82100E1929756D00711904 /* Sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sprites.atlasc; path = ../../../Desktop/Sprites.atlasc; sourceTree = "<group>"; };
+		0E8210111929759200711904 /* Sprites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sprites.h; path = ../../../Desktop/Sprites.h; sourceTree = "<group>"; };
+		0E821012192A1C3500711904 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		0E821013192A1C3500711904 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		0E821015192A204D00711904 /* Castle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Castle.h; sourceTree = "<group>"; };
+		0E821016192A204D00711904 /* Castle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Castle.m; sourceTree = "<group>"; };
+		0E821018192A242E00711904 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		0E821019192A242E00711904 /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
 		0E896B461923A4CE000D2710 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		0EC76FC619250C7600C38223 /* loadTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadTitle.png; sourceTree = "<group>"; };
-		0EC76FC819250C7E00C38223 /* castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle.png; sourceTree = "<group>"; };
-		0EC76FCA19250E6B00C38223 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
-		0EC76FCB19250E6B00C38223 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		0EC76FD01925131900C38223 /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		0EC76FD11925132500C38223 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		EE31FFC01912A07300881D37 /* GrenadeManiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrenadeManiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +92,6 @@
 		EE31FFDB1912A07400881D37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE31FFDD1912A07400881D37 /* TAJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAJMyScene.h; sourceTree = "<group>"; };
 		EE31FFDE1912A07400881D37 /* TAJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAJMyScene.m; sourceTree = "<group>"; };
-		EE31FFE01912A07400881D37 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		EE31FFE21912A07400881D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE31FFE81912A07500881D37 /* GrenadeManiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrenadeManiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE31FFE91912A07500881D37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -140,6 +163,8 @@
 				EE31FFD51912A07400881D37 /* TAJAppDelegate.m */,
 				EE31FFD71912A07400881D37 /* Main.storyboard */,
 				0EC76FD01925131900C38223 /* IntroViewController.h */,
+				0E8210111929759200711904 /* Sprites.h */,
+				0E82100E1929756D00711904 /* Sprites.atlasc */,
 				0EC76FD11925132500C38223 /* IntroViewController.m */,
 				EE31FFDA1912A07400881D37 /* ViewController.h */,
 				EE31FFDB1912A07400881D37 /* ViewController.m */,
@@ -147,11 +172,22 @@
 				EE31FFDE1912A07400881D37 /* TAJMyScene.m */,
 				0E44E69F19258BE400F1596E /* GameScene.h */,
 				0E44E6A019258BE400F1596E /* GameScene.m */,
-				0EC76FCA19250E6B00C38223 /* Sprite.h */,
-				0EC76FCB19250E6B00C38223 /* Sprite.m */,
-				EE31FFE01912A07400881D37 /* Spaceship.png */,
-				0EC76FC619250C7600C38223 /* loadTitle.png */,
-				0EC76FC819250C7E00C38223 /* castle.png */,
+				0E821012192A1C3500711904 /* Sprite.h */,
+				0E821013192A1C3500711904 /* Sprite.m */,
+				0E821018192A242E00711904 /* Enemy.h */,
+				0E821019192A242E00711904 /* Enemy.m */,
+				0E821015192A204D00711904 /* Castle.h */,
+				0E821016192A204D00711904 /* Castle.m */,
+				0E820FB419278B8300711904 /* HighScore.txt */,
+				0E820FD719278B9400711904 /* backgroundMusic.wav */,
+				0E820FD819278B9400711904 /* damage.wav */,
+				0E820FD919278B9400711904 /* deathMusic.wav */,
+				0E820FDA19278B9400711904 /* doublekill.wav */,
+				0E820FDB19278B9400711904 /* holyShit.wav */,
+				0E820FDC19278B9400711904 /* megaKill.wav */,
+				0E820FDD19278B9400711904 /* speedUp.wav */,
+				0E820FDE19278B9400711904 /* tripleKill.wav */,
+				0E820FDF19278B9400711904 /* ultraKill.wav */,
 				EE31FFE21912A07400881D37 /* Images.xcassets */,
 				0E896B461923A4CE000D2710 /* bg.png */,
 				EE31FFCC1912A07400881D37 /* Supporting Files */,
@@ -265,13 +301,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC76FC919250C7E00C38223 /* castle.png in Resources */,
+				0E82100719278B9400711904 /* ultraKill.wav in Resources */,
 				0E896B471923A4CE000D2710 /* bg.png in Resources */,
+				0E82100619278B9400711904 /* tripleKill.wav in Resources */,
+				0E82100419278B9400711904 /* megaKill.wav in Resources */,
 				EE31FFD01912A07400881D37 /* InfoPlist.strings in Resources */,
 				EE31FFE31912A07400881D37 /* Images.xcassets in Resources */,
-				EE31FFE11912A07400881D37 /* Spaceship.png in Resources */,
-				0EC76FC719250C7600C38223 /* loadTitle.png in Resources */,
+				0E82100019278B9400711904 /* damage.wav in Resources */,
+				0E82100119278B9400711904 /* deathMusic.wav in Resources */,
+				0E82100319278B9400711904 /* holyShit.wav in Resources */,
+				0E82100519278B9400711904 /* speedUp.wav in Resources */,
 				EE31FFD91912A07400881D37 /* Main.storyboard in Resources */,
+				0E82100219278B9400711904 /* doublekill.wav in Resources */,
+				0E820FFF19278B9400711904 /* backgroundMusic.wav in Resources */,
+				0E820FB619278B8300711904 /* HighScore.txt in Resources */,
+				0E82100F1929756D00711904 /* Sprites.atlasc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC76FCC19250E6B00C38223 /* Sprite.m in Sources */,
+				0E82101A192A242E00711904 /* Enemy.m in Sources */,
 				0EC76FD21925132500C38223 /* IntroViewController.m in Sources */,
 				EE31FFDC1912A07400881D37 /* ViewController.m in Sources */,
 				0E44E6A119258BE400F1596E /* GameScene.m in Sources */,
 				EE31FFD61912A07400881D37 /* TAJAppDelegate.m in Sources */,
 				EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */,
+				0E821014192A1C3500711904 /* Sprite.m in Sources */,
 				EE31FFD21912A07400881D37 /* main.m in Sources */,
+				0E821017192A204D00711904 /* Castle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

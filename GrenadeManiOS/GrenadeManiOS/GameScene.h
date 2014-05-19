@@ -7,7 +7,12 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
-
+#import "Sprites.h"
+#import "Castle.h"
+#import "Enemy.h"
+Castle *castle;
 @interface GameScene : SKScene
+
+-(void)enemyCastleHit;
 
 @end
