@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F61CE341923A98700B98582 /* TAJBattleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CE331923A98700B98582 /* TAJBattleScene.m */; };
+		3F61CE40192AD05400B98582 /* TAJEnemyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CE3F192AD05400B98582 /* TAJEnemyScene.m */; };
 		EE31FFC41912A07400881D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC31912A07400881D37 /* Foundation.framework */; };
 		EE31FFC61912A07400881D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC51912A07400881D37 /* CoreGraphics.framework */; };
 		EE31FFC81912A07400881D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC71912A07400881D37 /* UIKit.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F61CE321923A98700B98582 /* TAJBattleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAJBattleScene.h; path = ../TAJBattleScene.h; sourceTree = "<group>"; };
+		3F61CE331923A98700B98582 /* TAJBattleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAJBattleScene.m; path = ../TAJBattleScene.m; sourceTree = "<group>"; };
+		3F61CE3E192AD05400B98582 /* TAJEnemyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAJEnemyScene.h; sourceTree = "<group>"; };
+		3F61CE3F192AD05400B98582 /* TAJEnemyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAJEnemyScene.m; sourceTree = "<group>"; };
 		EE31FFC01912A07300881D37 /* GrenadeManiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrenadeManiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE31FFC31912A07400881D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE31FFC51912A07400881D37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,11 +127,15 @@
 		EE31FFCB1912A07400881D37 /* GrenadeManiOS */ = {
 			isa = PBXGroup;
 			children = (
+				3F61CE321923A98700B98582 /* TAJBattleScene.h */,
 				EE31FFD41912A07400881D37 /* TAJAppDelegate.h */,
+				3F61CE331923A98700B98582 /* TAJBattleScene.m */,
 				EE31FFD51912A07400881D37 /* TAJAppDelegate.m */,
 				EE31FFD71912A07400881D37 /* Main.storyboard */,
 				EE31FFDA1912A07400881D37 /* TAJViewController.h */,
 				EE31FFDB1912A07400881D37 /* TAJViewController.m */,
+				3F61CE3E192AD05400B98582 /* TAJEnemyScene.h */,
+				3F61CE3F192AD05400B98582 /* TAJEnemyScene.m */,
 				EE31FFDD1912A07400881D37 /* TAJMyScene.h */,
 				EE31FFDE1912A07400881D37 /* TAJMyScene.m */,
 				EE31FFE01912A07400881D37 /* Spaceship.png */,
@@ -267,6 +277,8 @@
 				EE31FFD61912A07400881D37 /* TAJAppDelegate.m in Sources */,
 				EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */,
 				EE31FFD21912A07400881D37 /* main.m in Sources */,
+				3F61CE341923A98700B98582 /* TAJBattleScene.m in Sources */,
+				3F61CE40192AD05400B98582 /* TAJEnemyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +485,7 @@
 				EE31FFFB1912A07500881D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE31FFFC1912A07500881D37 /* Build configuration list for PBXNativeTarget "GrenadeManiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +494,7 @@
 				EE31FFFE1912A07500881D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
