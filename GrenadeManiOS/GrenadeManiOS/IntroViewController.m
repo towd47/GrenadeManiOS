@@ -7,6 +7,7 @@
 //
 
 #import "IntroViewController.h"
+#import "IntroScene.h"
 @interface IntroViewController ()
 
 @end
@@ -15,9 +16,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    /*SKView *introView = (SKView *) self.view;
+    introView.showsDrawCount = YES;
+    introView.showsNodeCount = YES;
+    introView.showsFPS = YES;
     
-    // Configure the view.
-    // Create and configure the scene.
+    SKScene * scene = [IntroScene sceneWithSize:introView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    [introView presentScene:scene];*/
+    
 }
 
 - (BOOL)shouldAutorotate

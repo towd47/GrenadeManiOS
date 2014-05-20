@@ -1,5 +1,5 @@
 //
-//  Castle.h
+//  Explosion.h
 //  GrenadeManiOS
 //
 //  Created by Mokacola on 5/19/14.
@@ -7,7 +7,7 @@
 //
 
 #import "Sprite.h"
-#import "Sprite.h"
-@interface Castle : Sprite
+SKAction *explode;
+@interface Explosion : Sprite
 
 @end

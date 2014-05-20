@@ -12,8 +12,9 @@
 -(id)init
 {
     self = [super init];
-    [self setTexture:SPRITES_TEX_CASTLE];
-    
+    self = [Castle spriteNodeWithTexture: SPRITES_TEX_CASTLE];
+    self.xScale =0.25;
+    self.yScale = 0.25;
     self.position = CGPointMake(self.getWidth/2, [UIScreen mainScreen].bounds.size.height/2);
     return self;
 }

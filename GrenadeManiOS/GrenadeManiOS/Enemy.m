@@ -24,8 +24,12 @@
     walkAndMoveRight = [SKAction group:@[resetDirection,  walkAnim, moveRight]];
     walkAndMoveLeft  = [SKAction group:@[mirrorDirection, walkAnim, moveLeft]];
     
+    
+    
     SKTexture *texture =SPRITES_TEX_ENEMY_STICKFIGURE1;
-    [self setTexture:texture];
+    self = [Enemy spriteNodeWithTexture: texture];
+    self.xScale = 0.25;
+    self.yScale = 0.25;
 
     self.position = CGPointMake([UIScreen mainScreen].bounds.size.width + self.size.width, [UIScreen mainScreen].bounds.size.height/2.30);
     return self;

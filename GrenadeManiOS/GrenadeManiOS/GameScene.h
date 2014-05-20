@@ -10,9 +10,11 @@
 #import "Sprites.h"
 #import "Castle.h"
 #import "Enemy.h"
+#import "Bomb.h"
+#import "Explosion.h"
 Castle *castle;
 @interface GameScene : SKScene
 
 -(void)enemyCastleHit;
-
+//-(void)removeExplosion;
 @end

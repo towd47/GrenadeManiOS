@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E44E6A119258BE400F1596E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44E6A019258BE400F1596E /* GameScene.m */; };
+		0E528B48192AD70200197135 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B47192AD70200197135 /* IntroScene.m */; };
+		0E528B4B192AEAC600197135 /* Bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B4A192AEAC600197135 /* Bomb.m */; };
+		0E528B4E192AED5900197135 /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B4D192AED5900197135 /* Explosion.m */; };
 		0E820FB619278B8300711904 /* HighScore.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FB419278B8300711904 /* HighScore.txt */; };
 		0E820FFF19278B9400711904 /* backgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD719278B9400711904 /* backgroundMusic.wav */; };
 		0E82100019278B9400711904 /* damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD819278B9400711904 /* damage.wav */; };
@@ -32,7 +35,7 @@
 		EE31FFD21912A07400881D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFD11912A07400881D37 /* main.m */; };
 		EE31FFD61912A07400881D37 /* TAJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFD51912A07400881D37 /* TAJAppDelegate.m */; };
 		EE31FFD91912A07400881D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFD71912A07400881D37 /* Main.storyboard */; };
-		EE31FFDC1912A07400881D37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDB1912A07400881D37 /* ViewController.m */; };
+		EE31FFDC1912A07400881D37 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDB1912A07400881D37 /* GameViewController.m */; };
 		EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31FFDE1912A07400881D37 /* TAJMyScene.m */; };
 		EE31FFE31912A07400881D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31FFE21912A07400881D37 /* Images.xcassets */; };
 		EE31FFEA1912A07500881D37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFE91912A07500881D37 /* XCTest.framework */; };
@@ -55,6 +58,12 @@
 /* Begin PBXFileReference section */
 		0E44E69F19258BE400F1596E /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		0E44E6A019258BE400F1596E /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		0E528B46192AD70200197135 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		0E528B47192AD70200197135 /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		0E528B49192AEAC600197135 /* Bomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bomb.h; sourceTree = "<group>"; };
+		0E528B4A192AEAC600197135 /* Bomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bomb.m; sourceTree = "<group>"; };
+		0E528B4C192AED5900197135 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
+		0E528B4D192AED5900197135 /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
 		0E820FB419278B8300711904 /* HighScore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HighScore.txt; path = ../../../GrenadeMan2/resources/HighScore.txt; sourceTree = "<group>"; };
 		0E820FD719278B9400711904 /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backgroundMusic.wav; path = ../../../GrenadeMan2/resources/backgroundMusic.wav; sourceTree = "<group>"; };
 		0E820FD819278B9400711904 /* damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = damage.wav; path = ../../../GrenadeMan2/resources/damage.wav; sourceTree = "<group>"; };
@@ -88,8 +97,8 @@
 		EE31FFD41912A07400881D37 /* TAJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAJAppDelegate.h; sourceTree = "<group>"; };
 		EE31FFD51912A07400881D37 /* TAJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAJAppDelegate.m; sourceTree = "<group>"; };
 		EE31FFD81912A07400881D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE31FFDA1912A07400881D37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE31FFDB1912A07400881D37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE31FFDA1912A07400881D37 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		EE31FFDB1912A07400881D37 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		EE31FFDD1912A07400881D37 /* TAJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAJMyScene.h; sourceTree = "<group>"; };
 		EE31FFDE1912A07400881D37 /* TAJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAJMyScene.m; sourceTree = "<group>"; };
 		EE31FFE21912A07400881D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -162,16 +171,22 @@
 				EE31FFD41912A07400881D37 /* TAJAppDelegate.h */,
 				EE31FFD51912A07400881D37 /* TAJAppDelegate.m */,
 				EE31FFD71912A07400881D37 /* Main.storyboard */,
-				0EC76FD01925131900C38223 /* IntroViewController.h */,
 				0E8210111929759200711904 /* Sprites.h */,
 				0E82100E1929756D00711904 /* Sprites.atlasc */,
 				0EC76FD11925132500C38223 /* IntroViewController.m */,
-				EE31FFDA1912A07400881D37 /* ViewController.h */,
-				EE31FFDB1912A07400881D37 /* ViewController.m */,
+				0EC76FD01925131900C38223 /* IntroViewController.h */,
+				0E528B46192AD70200197135 /* IntroScene.h */,
+				0E528B47192AD70200197135 /* IntroScene.m */,
+				EE31FFDA1912A07400881D37 /* GameViewController.h */,
+				EE31FFDB1912A07400881D37 /* GameViewController.m */,
 				EE31FFDD1912A07400881D37 /* TAJMyScene.h */,
 				EE31FFDE1912A07400881D37 /* TAJMyScene.m */,
 				0E44E69F19258BE400F1596E /* GameScene.h */,
 				0E44E6A019258BE400F1596E /* GameScene.m */,
+				0E528B4C192AED5900197135 /* Explosion.h */,
+				0E528B4D192AED5900197135 /* Explosion.m */,
+				0E528B49192AEAC600197135 /* Bomb.h */,
+				0E528B4A192AEAC600197135 /* Bomb.m */,
 				0E821012192A1C3500711904 /* Sprite.h */,
 				0E821013192A1C3500711904 /* Sprite.m */,
 				0E821018192A242E00711904 /* Enemy.h */,
@@ -335,14 +350,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E82101A192A242E00711904 /* Enemy.m in Sources */,
+				0E528B4B192AEAC600197135 /* Bomb.m in Sources */,
 				0EC76FD21925132500C38223 /* IntroViewController.m in Sources */,
-				EE31FFDC1912A07400881D37 /* ViewController.m in Sources */,
+				EE31FFDC1912A07400881D37 /* GameViewController.m in Sources */,
 				0E44E6A119258BE400F1596E /* GameScene.m in Sources */,
 				EE31FFD61912A07400881D37 /* TAJAppDelegate.m in Sources */,
 				EE31FFDF1912A07400881D37 /* TAJMyScene.m in Sources */,
+				0E528B4E192AED5900197135 /* Explosion.m in Sources */,
 				0E821014192A1C3500711904 /* Sprite.m in Sources */,
 				EE31FFD21912A07400881D37 /* main.m in Sources */,
 				0E821017192A204D00711904 /* Castle.m in Sources */,
+				0E528B48192AD70200197135 /* IntroScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

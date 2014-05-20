@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Castle.h"
+#import "Sprite.h"
+#import "GameScene.h"
 @interface IntroViewController : UIViewController
 
 @end

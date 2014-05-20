@@ -1,15 +1,14 @@
-
 //
-//  TAJViewController.h
+//  IntroScene.h
 //  GrenadeManiOS
 //
-
+//  Created by Mokacola on 5/19/14.
 //  Copyright (c) 2014 TomAndrewJeff. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
-
-@interface ViewController : UIViewController
+#import "Sprite.h"
+#import "Castle.h"
+@interface IntroScene : SKScene
 
 @end

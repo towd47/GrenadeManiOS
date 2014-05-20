@@ -20,10 +20,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="castle.png" translatesAutoresizingMaskIntoConstraints="NO" id="jjV-1R-6yG">
-                                <rect key="frame" x="0.0" y="46" width="107" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loadTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="KhA-Qg-yfK">
                                 <rect key="frame" x="102" y="46" width="365" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -48,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="-2013" y="322"/>
         </scene>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="KMJ-6L-QaF">
             <objects>
-                <viewController id="P6z-K5-ahN" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="P6z-K5-ahN" customClass="GameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hhG-z4-PMk"/>
                         <viewControllerLayoutGuide type="bottom" id="zSt-MT-WAF"/>
@@ -71,7 +67,6 @@
     </scenes>
     <resources>
         <image name="bg.png" width="1280" height="800"/>
-        <image name="castle.png" width="254" height="550"/>
         <image name="loadTitle.png" width="707" height="102"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

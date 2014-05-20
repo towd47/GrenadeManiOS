@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 TomAndrewJeff. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "GameViewController.h"
 #import "GameScene.h"
-@interface ViewController ()
+@interface GameViewController ()
 @end
 
-@implementation ViewController
+@implementation GameViewController
 
 - (void)viewDidLoad
 {
@@ -36,6 +36,7 @@
 {
     return YES;
 }
+
 
 - (NSUInteger)supportedInterfaceOrientations
 {
