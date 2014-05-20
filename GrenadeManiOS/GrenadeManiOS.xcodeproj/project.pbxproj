@@ -11,6 +11,7 @@
 		0E528B48192AD70200197135 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B47192AD70200197135 /* IntroScene.m */; };
 		0E528B4B192AEAC600197135 /* Bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B4A192AEAC600197135 /* Bomb.m */; };
 		0E528B4E192AED5900197135 /* Explosion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B4D192AED5900197135 /* Explosion.m */; };
+		0E528B51192B7E5700197135 /* Sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 0E528B4F192B7E5700197135 /* Sprites.atlasc */; };
 		0E820FB619278B8300711904 /* HighScore.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FB419278B8300711904 /* HighScore.txt */; };
 		0E820FFF19278B9400711904 /* backgroundMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD719278B9400711904 /* backgroundMusic.wav */; };
 		0E82100019278B9400711904 /* damage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FD819278B9400711904 /* damage.wav */; };
@@ -21,7 +22,6 @@
 		0E82100519278B9400711904 /* speedUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDD19278B9400711904 /* speedUp.wav */; };
 		0E82100619278B9400711904 /* tripleKill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDE19278B9400711904 /* tripleKill.wav */; };
 		0E82100719278B9400711904 /* ultraKill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E820FDF19278B9400711904 /* ultraKill.wav */; };
-		0E82100F1929756D00711904 /* Sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 0E82100E1929756D00711904 /* Sprites.atlasc */; };
 		0E821014192A1C3500711904 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821013192A1C3500711904 /* Sprite.m */; };
 		0E821017192A204D00711904 /* Castle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821016192A204D00711904 /* Castle.m */; };
 		0E82101A192A242E00711904 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821019192A242E00711904 /* Enemy.m */; };
@@ -64,6 +64,8 @@
 		0E528B4A192AEAC600197135 /* Bomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bomb.m; sourceTree = "<group>"; };
 		0E528B4C192AED5900197135 /* Explosion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Explosion.h; sourceTree = "<group>"; };
 		0E528B4D192AED5900197135 /* Explosion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Explosion.m; sourceTree = "<group>"; };
+		0E528B4F192B7E5700197135 /* Sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sprites.atlasc; sourceTree = "<group>"; };
+		0E528B50192B7E5700197135 /* sprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sprites.h; sourceTree = "<group>"; };
 		0E820FB419278B8300711904 /* HighScore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HighScore.txt; path = ../../../GrenadeMan2/resources/HighScore.txt; sourceTree = "<group>"; };
 		0E820FD719278B9400711904 /* backgroundMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backgroundMusic.wav; path = ../../../GrenadeMan2/resources/backgroundMusic.wav; sourceTree = "<group>"; };
 		0E820FD819278B9400711904 /* damage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = damage.wav; path = ../../../GrenadeMan2/resources/damage.wav; sourceTree = "<group>"; };
@@ -74,8 +76,6 @@
 		0E820FDD19278B9400711904 /* speedUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = speedUp.wav; path = ../../../GrenadeMan2/resources/speedUp.wav; sourceTree = "<group>"; };
 		0E820FDE19278B9400711904 /* tripleKill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tripleKill.wav; path = ../../../GrenadeMan2/resources/tripleKill.wav; sourceTree = "<group>"; };
 		0E820FDF19278B9400711904 /* ultraKill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ultraKill.wav; path = ../../../GrenadeMan2/resources/ultraKill.wav; sourceTree = "<group>"; };
-		0E82100E1929756D00711904 /* Sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sprites.atlasc; path = ../../../Desktop/Sprites.atlasc; sourceTree = "<group>"; };
-		0E8210111929759200711904 /* Sprites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sprites.h; path = ../../../Desktop/Sprites.h; sourceTree = "<group>"; };
 		0E821012192A1C3500711904 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 		0E821013192A1C3500711904 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		0E821015192A204D00711904 /* Castle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Castle.h; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 				EE31FFD41912A07400881D37 /* TAJAppDelegate.h */,
 				EE31FFD51912A07400881D37 /* TAJAppDelegate.m */,
 				EE31FFD71912A07400881D37 /* Main.storyboard */,
-				0E8210111929759200711904 /* Sprites.h */,
-				0E82100E1929756D00711904 /* Sprites.atlasc */,
+				0E528B4F192B7E5700197135 /* Sprites.atlasc */,
+				0E528B50192B7E5700197135 /* sprites.h */,
 				0EC76FD11925132500C38223 /* IntroViewController.m */,
 				0EC76FD01925131900C38223 /* IntroViewController.h */,
 				0E528B46192AD70200197135 /* IntroScene.h */,
@@ -330,7 +330,7 @@
 				0E82100219278B9400711904 /* doublekill.wav in Resources */,
 				0E820FFF19278B9400711904 /* backgroundMusic.wav in Resources */,
 				0E820FB619278B8300711904 /* HighScore.txt in Resources */,
-				0E82100F1929756D00711904 /* Sprites.atlasc in Resources */,
+				0E528B51192B7E5700197135 /* Sprites.atlasc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
