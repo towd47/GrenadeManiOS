@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		3F61CE341923A98700B98582 /* TAJBattleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CE331923A98700B98582 /* TAJBattleScene.m */; };
+		3F61CE40192AD05400B98582 /* TAJEnemyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F61CE3F192AD05400B98582 /* TAJEnemyScene.m */; };
+=======
 		0E44E6A119258BE400F1596E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E44E6A019258BE400F1596E /* GameScene.m */; };
 		0E528B48192AD70200197135 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B47192AD70200197135 /* IntroScene.m */; };
 		0E528B4B192AEAC600197135 /* Bomb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E528B4A192AEAC600197135 /* Bomb.m */; };
@@ -27,6 +31,7 @@
 		0E82101A192A242E00711904 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E821019192A242E00711904 /* Enemy.m */; };
 		0E896B471923A4CE000D2710 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E896B461923A4CE000D2710 /* bg.png */; };
 		0EC76FD21925132500C38223 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC76FD11925132500C38223 /* IntroViewController.m */; };
+>>>>>>> FETCH_HEAD
 		EE31FFC41912A07400881D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC31912A07400881D37 /* Foundation.framework */; };
 		EE31FFC61912A07400881D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC51912A07400881D37 /* CoreGraphics.framework */; };
 		EE31FFC81912A07400881D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31FFC71912A07400881D37 /* UIKit.framework */; };
@@ -56,6 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		3F61CE321923A98700B98582 /* TAJBattleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAJBattleScene.h; path = ../TAJBattleScene.h; sourceTree = "<group>"; };
+		3F61CE331923A98700B98582 /* TAJBattleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAJBattleScene.m; path = ../TAJBattleScene.m; sourceTree = "<group>"; };
+		3F61CE3E192AD05400B98582 /* TAJEnemyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAJEnemyScene.h; sourceTree = "<group>"; };
+		3F61CE3F192AD05400B98582 /* TAJEnemyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAJEnemyScene.m; sourceTree = "<group>"; };
+=======
 		0E44E69F19258BE400F1596E /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		0E44E6A019258BE400F1596E /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		0E528B46192AD70200197135 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
@@ -85,6 +96,7 @@
 		0E896B461923A4CE000D2710 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		0EC76FD01925131900C38223 /* IntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		0EC76FD11925132500C38223 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		EE31FFC01912A07300881D37 /* GrenadeManiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrenadeManiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE31FFC31912A07400881D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE31FFC51912A07400881D37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -168,17 +180,31 @@
 		EE31FFCB1912A07400881D37 /* GrenadeManiOS */ = {
 			isa = PBXGroup;
 			children = (
+				3F61CE321923A98700B98582 /* TAJBattleScene.h */,
 				EE31FFD41912A07400881D37 /* TAJAppDelegate.h */,
+				3F61CE331923A98700B98582 /* TAJBattleScene.m */,
 				EE31FFD51912A07400881D37 /* TAJAppDelegate.m */,
 				EE31FFD71912A07400881D37 /* Main.storyboard */,
+<<<<<<< HEAD
 				0E528B4F192B7E5700197135 /* Sprites.atlasc */,
 				0E528B50192B7E5700197135 /* sprites.h */,
+=======
+<<<<<<< HEAD
+				EE31FFDA1912A07400881D37 /* TAJViewController.h */,
+				EE31FFDB1912A07400881D37 /* TAJViewController.m */,
+				3F61CE3E192AD05400B98582 /* TAJEnemyScene.h */,
+				3F61CE3F192AD05400B98582 /* TAJEnemyScene.m */,
+=======
+				0E8210111929759200711904 /* Sprites.h */,
+				0E82100E1929756D00711904 /* Sprites.atlasc */,
+>>>>>>> FETCH_HEAD
 				0EC76FD11925132500C38223 /* IntroViewController.m */,
 				0EC76FD01925131900C38223 /* IntroViewController.h */,
 				0E528B46192AD70200197135 /* IntroScene.h */,
 				0E528B47192AD70200197135 /* IntroScene.m */,
 				EE31FFDA1912A07400881D37 /* GameViewController.h */,
 				EE31FFDB1912A07400881D37 /* GameViewController.m */,
+>>>>>>> FETCH_HEAD
 				EE31FFDD1912A07400881D37 /* TAJMyScene.h */,
 				EE31FFDE1912A07400881D37 /* TAJMyScene.m */,
 				0E44E69F19258BE400F1596E /* GameScene.h */,
@@ -359,8 +385,13 @@
 				0E528B4E192AED5900197135 /* Explosion.m in Sources */,
 				0E821014192A1C3500711904 /* Sprite.m in Sources */,
 				EE31FFD21912A07400881D37 /* main.m in Sources */,
+<<<<<<< HEAD
+				3F61CE341923A98700B98582 /* TAJBattleScene.m in Sources */,
+				3F61CE40192AD05400B98582 /* TAJEnemyScene.m in Sources */,
+=======
 				0E821017192A204D00711904 /* Castle.m in Sources */,
 				0E528B48192AD70200197135 /* IntroScene.m in Sources */,
+>>>>>>> FETCH_HEAD
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
