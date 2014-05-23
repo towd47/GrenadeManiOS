@@ -16,9 +16,18 @@
     self = [Bomb spriteNodeWithTexture: SPRITES_TEX_BOMB];
     self.xScale =0.3;
     self.yScale = 0.3;
-    self.position = CGPointMake(100, 250);
+    isExploding = false;
+    //self.position = CGPointMake(100, 250);
     return self;
     
 }
 
+-(bool)getExploding
+{
+    return isExploding;
+}
+-(void)changeExploding:(bool)exploding
+{
+    isExploding = exploding;
+}
 @end
