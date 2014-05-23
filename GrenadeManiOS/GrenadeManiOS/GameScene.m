@@ -47,7 +47,35 @@ Explosion *explosion;
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
- 
+    CGMutablePathRef path = CGPathCreateMutable();
+    CGPathMoveToPoint(path,NULL,50.0,120.0);
+    
+    CGPathAddCurveToPoint(path,NULL,50.0,275.0,
+                          150.0,275.0,
+                          150.0,120.0);
+    CGPathAddCurveToPoint(path,NULL,150.0,275.0,
+                          250.0,275.0,
+                          250.0,120.0);
+    CGPathAddCurveToPoint(path,NULL,250.0,275.0,
+                          350.0,275.0,
+                          350.0,120.0);
+    CGPathAddCurveToPoint(path,NULL,350.0,275.0,
+                          450.0,275.0,
+                          450.0,120.0);
+    
+    CAKeyframeAnimation* AniLoc = [CAKeyframeAnimation animationWithKeyPath:@"position"];     
+    AniLoc.path = bombPath;
+    AniLoc.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
+    AniLoc.keyTimes= [NSArray arrayWithObjects:[NSNumber numberWithFloat:0.0f],
+                      [NSNumber numberWithFloat:0.3f],
+                      [NSNumber numberWithFloat:1.0f],nil];
+    AniLoc.duration = 2.0;
+    
+    CFRelease(bombPath);
+    
+    [self.logo.layer addAnimation:AniLoc forKey:nil];
+    
+    
 }
 
 -(void)bombExplosion
