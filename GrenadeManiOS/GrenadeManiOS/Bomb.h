@@ -7,7 +7,11 @@
 //
 
 #import "Sprite.h"
-
+#import "Explosion.h"
+#import "GameScene.h"
+bool isExploding;
 @interface Bomb : Sprite
 
+-(bool)getExploding;
+-(void)changeExploding:(bool)exploding;
 @end
