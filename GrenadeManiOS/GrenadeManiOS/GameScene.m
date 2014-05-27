@@ -45,7 +45,6 @@ Bomb *bomb;
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-<<<<<<< HEAD
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathMoveToPoint(path,NULL,50.0,120.0);
     
